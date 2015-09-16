@@ -13,6 +13,7 @@
 		3A87345C1BA933F300B519EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A87345A1BA933F300B519EA /* Main.storyboard */; };
 		3A87345E1BA933F300B519EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A87345D1BA933F300B519EA /* Assets.xcassets */; };
 		3A8734691BA933F300B519EA /* Thunder_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8734681BA933F300B519EA /* Thunder_BallTests.swift */; };
+		3A8734741BA9351E00B519EA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3A8734731BA9351E00B519EA /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3A8734641BA933F300B519EA /* Thunder BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thunder BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8734681BA933F300B519EA /* Thunder_BallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunder_BallTests.swift; sourceTree = "<group>"; };
 		3A87346A1BA933F300B519EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8734731BA9351E00B519EA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				3A8734531BA933F300B519EA /* Thunder Ball */,
 				3A8734671BA933F300B519EA /* Thunder BallTests */,
 				3A8734521BA933F300B519EA /* Products */,
+				3A8734731BA9351E00B519EA /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,9 +81,9 @@
 			isa = PBXGroup;
 			children = (
 				3A8734541BA933F300B519EA /* AppDelegate.swift */,
-				3A8734561BA933F300B519EA /* art.scnassets */,
 				3A8734581BA933F300B519EA /* GameViewController.swift */,
 				3A87345A1BA933F300B519EA /* Main.storyboard */,
+				3A8734561BA933F300B519EA /* art.scnassets */,
 				3A87345D1BA933F300B519EA /* Assets.xcassets */,
 				3A87345F1BA933F300B519EA /* Info.plist */,
 			);
@@ -145,6 +148,7 @@
 				TargetAttributes = {
 					3A8734501BA933F300B519EA = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PUS7FQ6G2Y;
 					};
 					3A8734631BA933F300B519EA = {
 						CreatedOnToolsVersion = 7.1;
@@ -176,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8734741BA9351E00B519EA /* .gitignore in Resources */,
 				3A8734571BA933F300B519EA /* art.scnassets in Resources */,
 				3A87345E1BA933F300B519EA /* Assets.xcassets in Resources */,
 				3A87345C1BA933F300B519EA /* Main.storyboard in Resources */,
@@ -317,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Thunder Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thunderBall.Thunder-Ball";
@@ -329,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Thunder Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thunderBall.Thunder-Ball";
