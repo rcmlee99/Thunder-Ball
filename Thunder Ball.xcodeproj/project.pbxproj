@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8734551BA933F300B519EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8734541BA933F300B519EA /* AppDelegate.swift */; };
+		3A8734571BA933F300B519EA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8734561BA933F300B519EA /* art.scnassets */; };
+		3A8734591BA933F300B519EA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8734581BA933F300B519EA /* GameViewController.swift */; };
+		3A87345C1BA933F300B519EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A87345A1BA933F300B519EA /* Main.storyboard */; };
+		3A87345E1BA933F300B519EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A87345D1BA933F300B519EA /* Assets.xcassets */; };
+		3A8734691BA933F300B519EA /* Thunder_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8734681BA933F300B519EA /* Thunder_BallTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A8734651BA933F300B519EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A8734491BA933F300B519EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A8734501BA933F300B519EA;
+			remoteInfo = "Thunder Ball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A8734511BA933F300B519EA /* Thunder Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thunder Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8734541BA933F300B519EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A8734561BA933F300B519EA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		3A8734581BA933F300B519EA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3A87345B1BA933F300B519EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A87345D1BA933F300B519EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A87345F1BA933F300B519EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8734641BA933F300B519EA /* Thunder BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thunder BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8734681BA933F300B519EA /* Thunder_BallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thunder_BallTests.swift; sourceTree = "<group>"; };
+		3A87346A1BA933F300B519EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A87344E1BA933F300B519EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8734611BA933F300B519EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8734481BA933F300B519EA = {
+			isa = PBXGroup;
+			children = (
+				3A8734531BA933F300B519EA /* Thunder Ball */,
+				3A8734671BA933F300B519EA /* Thunder BallTests */,
+				3A8734521BA933F300B519EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8734521BA933F300B519EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8734511BA933F300B519EA /* Thunder Ball.app */,
+				3A8734641BA933F300B519EA /* Thunder BallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8734531BA933F300B519EA /* Thunder Ball */ = {
+			isa = PBXGroup;
+			children = (
+				3A8734541BA933F300B519EA /* AppDelegate.swift */,
+				3A8734561BA933F300B519EA /* art.scnassets */,
+				3A8734581BA933F300B519EA /* GameViewController.swift */,
+				3A87345A1BA933F300B519EA /* Main.storyboard */,
+				3A87345D1BA933F300B519EA /* Assets.xcassets */,
+				3A87345F1BA933F300B519EA /* Info.plist */,
+			);
+			path = "Thunder Ball";
+			sourceTree = "<group>";
+		};
+		3A8734671BA933F300B519EA /* Thunder BallTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A8734681BA933F300B519EA /* Thunder_BallTests.swift */,
+				3A87346A1BA933F300B519EA /* Info.plist */,
+			);
+			path = "Thunder BallTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8734501BA933F300B519EA /* Thunder Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A87346D1BA933F300B519EA /* Build configuration list for PBXNativeTarget "Thunder Ball" */;
+			buildPhases = (
+				3A87344D1BA933F300B519EA /* Sources */,
+				3A87344E1BA933F300B519EA /* Frameworks */,
+				3A87344F1BA933F300B519EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thunder Ball";
+			productName = "Thunder Ball";
+			productReference = 3A8734511BA933F300B519EA /* Thunder Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A8734631BA933F300B519EA /* Thunder BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8734701BA933F300B519EA /* Build configuration list for PBXNativeTarget "Thunder BallTests" */;
+			buildPhases = (
+				3A8734601BA933F300B519EA /* Sources */,
+				3A8734611BA933F300B519EA /* Frameworks */,
+				3A8734621BA933F300B519EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8734661BA933F300B519EA /* PBXTargetDependency */,
+			);
+			name = "Thunder BallTests";
+			productName = "Thunder BallTests";
+			productReference = 3A8734641BA933F300B519EA /* Thunder BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8734491BA933F300B519EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Thunder Ball";
+				TargetAttributes = {
+					3A8734501BA933F300B519EA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					3A8734631BA933F300B519EA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 3A8734501BA933F300B519EA;
+					};
+				};
+			};
+			buildConfigurationList = 3A87344C1BA933F300B519EA /* Build configuration list for PBXProject "Thunder Ball" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A8734481BA933F300B519EA;
+			productRefGroup = 3A8734521BA933F300B519EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8734501BA933F300B519EA /* Thunder Ball */,
+				3A8734631BA933F300B519EA /* Thunder BallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A87344F1BA933F300B519EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8734571BA933F300B519EA /* art.scnassets in Resources */,
+				3A87345E1BA933F300B519EA /* Assets.xcassets in Resources */,
+				3A87345C1BA933F300B519EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8734621BA933F300B519EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A87344D1BA933F300B519EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8734591BA933F300B519EA /* GameViewController.swift in Sources */,
+				3A8734551BA933F300B519EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8734601BA933F300B519EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8734691BA933F300B519EA /* Thunder_BallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A8734661BA933F300B519EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A8734501BA933F300B519EA /* Thunder Ball */;
+			targetProxy = 3A8734651BA933F300B519EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A87345A1BA933F300B519EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A87345B1BA933F300B519EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A87346B1BA933F300B519EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		3A87346C1BA933F300B519EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A87346E1BA933F300B519EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Thunder Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunderBall.Thunder-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A87346F1BA933F300B519EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Thunder Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunderBall.Thunder-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A8734711BA933F300B519EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Thunder BallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunderBall.Thunder-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunder Ball.app/Thunder Ball";
+			};
+			name = Debug;
+		};
+		3A8734721BA933F300B519EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Thunder BallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thunderBall.Thunder-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thunder Ball.app/Thunder Ball";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A87344C1BA933F300B519EA /* Build configuration list for PBXProject "Thunder Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A87346B1BA933F300B519EA /* Debug */,
+				3A87346C1BA933F300B519EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A87346D1BA933F300B519EA /* Build configuration list for PBXNativeTarget "Thunder Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A87346E1BA933F300B519EA /* Debug */,
+				3A87346F1BA933F300B519EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A8734701BA933F300B519EA /* Build configuration list for PBXNativeTarget "Thunder BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8734711BA933F300B519EA /* Debug */,
+				3A8734721BA933F300B519EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8734491BA933F300B519EA /* Project object */;
+}
