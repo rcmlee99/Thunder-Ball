@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A73892F1BAA62B100BAAE3E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A73892E1BAA62B100BAAE3E /* GameScene.swift */; };
+		3A7389331BAA758200BAAE3E /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7389321BAA758200BAAE3E /* Float+Extensions.swift */; };
 		3A8734551BA933F300B519EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8734541BA933F300B519EA /* AppDelegate.swift */; };
 		3A8734571BA933F300B519EA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8734561BA933F300B519EA /* art.scnassets */; };
 		3A8734591BA933F300B519EA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8734581BA933F300B519EA /* GameViewController.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A73892E1BAA62B100BAAE3E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		3A7389321BAA758200BAAE3E /* Float+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+Extensions.swift"; sourceTree = "<group>"; };
 		3A8734511BA933F300B519EA /* Thunder Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thunder Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8734541BA933F300B519EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A8734561BA933F300B519EA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 			children = (
 				3A8734541BA933F300B519EA /* AppDelegate.swift */,
 				3A8734581BA933F300B519EA /* GameViewController.swift */,
+				3A73892E1BAA62B100BAAE3E /* GameScene.swift */,
+				3A7389321BAA758200BAAE3E /* Float+Extensions.swift */,
 				3A87345A1BA933F300B519EA /* Main.storyboard */,
 				3A8734561BA933F300B519EA /* art.scnassets */,
 				3A87345D1BA933F300B519EA /* Assets.xcassets */,
@@ -201,6 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A7389331BAA758200BAAE3E /* Float+Extensions.swift in Sources */,
+				3A73892F1BAA62B100BAAE3E /* GameScene.swift in Sources */,
 				3A8734591BA933F300B519EA /* GameViewController.swift in Sources */,
 				3A8734551BA933F300B519EA /* AppDelegate.swift in Sources */,
 			);
@@ -387,6 +395,7 @@
 				3A87346F1BA933F300B519EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A8734701BA933F300B519EA /* Build configuration list for PBXNativeTarget "Thunder BallTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +404,7 @@
 				3A8734721BA933F300B519EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
