@@ -29,26 +29,19 @@ class GameViewController: UIViewController {
         
     // configure the view
     scnView.backgroundColor = UIColor.blackColor()
-      
-    // add a tap gesture recognizer
-    let tapGesture = UITapGestureRecognizer(target: self, action: "handleTap:")
-    var gestureRecognizers = [UIGestureRecognizer]()
-    gestureRecognizers.append(tapGesture)
     
-    if let existingGestureRecognizers = scnView.gestureRecognizers {
-      gestureRecognizers.appendContentsOf(existingGestureRecognizers)
-    }
-    scnView.gestureRecognizers = gestureRecognizers
+    //Phsyics shit
+    self.scene.physicsWorld.gravity = SCNVector3Make(0, -10, 0)
   }
   
-  func handleTap(gestureRecognize: UIGestureRecognizer) {
+  @IBAction func handleTap(sender: AnyObject) {
     //Applies a random impulse on the lamp to make it swing a bit.
     let cone = scene.rootNode.childNodeWithName("coneNode", recursively: true)!
     
     let randX = Float.random(-25, max: 25)
     let randY = Float.random(-25, max: 25)
     let randZ = Float.random(-25, max: 25)
-
+    
     let vector = SCNVector3Make(randX, randY, randZ)
     
     cone.physicsBody!.applyForce(vector, atPosition: cone.position, impulse: true)

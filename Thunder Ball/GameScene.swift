@@ -8,8 +8,6 @@
 
 import SceneKit
 
-//Test
-
 class GameScene: SCNScene {
   let geometriesNode = SCNNode()
   
@@ -55,6 +53,8 @@ class GameScene: SCNScene {
     cubeNode.position = SCNVector3Make(0, 5, 0)
     
     self.rootNode.addChildNode(cubeNode)
+    
+    //
   }
   
   //Creates a cieling lamp that swings from the "cieling"
@@ -120,8 +120,6 @@ class GameScene: SCNScene {
     return tempNode
   }
   
-  
-
   required init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
   }
